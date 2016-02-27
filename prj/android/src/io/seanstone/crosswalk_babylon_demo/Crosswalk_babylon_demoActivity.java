@@ -26,7 +26,6 @@ public class Crosswalk_babylon_demoActivity extends XWalkRuntimeActivityBase {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
-        setRemoteDebugging(true);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         setIsFullscreen(true);
         super.onCreate(savedInstanceState);
